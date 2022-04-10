@@ -15,12 +15,12 @@ h1{
     font-size: 5rem;
     text-shadow: 2px 2px #dad8e1;
  }
-.row3 {
+.row3, .row8 {
     background-color: gray;
     text-align: center;
   
 }
-.row4, .row5, .row6, .row7 {
+.row4, .row5, .row6, .row7, .row9, .row10, .row11 {
     background-color: white;
     text-align: center;    
 }
@@ -33,3 +33,22 @@ h1{
     height: 150px;
     margin: 10px;
 }
+.row9 {
+    font-size: 23px;
+    font-weight: 500;
+}
+.row9 img {
+    width: 40rem;
+    margin: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+ul {
+   text-align: left;
+}
+.title, .info {
+    color: darkblue;
+}
+ 
