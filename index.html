@@ -28,6 +28,57 @@
         </div>
         <hr>
         <br>
+        <!--remember to starts new blog on row 12-->
+        <!--Normalization blog stars here-->
+        <div class="row row12">
+            <h2>What is Normalization</h2>
+            <h6>06-Normalization</h6>
+        </div>
+        <div class="row row13">
+            <img src="img/Normalization.jpg">
+        </div>
+        <div class="row row14">
+            <p>Normalization organized data in the database, Organized non structured data, Eliminates redundant or
+                useless data and ensures data is logically stored.</p>
+           
+            <p>There are following FOUR normal forms used in database in normalization:</p>
+            <br>
+        </div>
+
+        <div class="row row15">
+            <div class="col-md-3">
+                <h3 class="Nor"> First Normal Form (1NF) </h3>
+                <h4 class="form">The first normal form is the normal form of database where data must not contain
+                    repeating groups,
+                    Each table cell should contain a single value and Each Record needs to be unique.</h4>
+                <h4 class="example"><i>This means looking at the data to be stored, organizing the data into columns, defining what type of
+                    data each column contains and then finally putting the related columns into their own table.</i></h4>
+            </div>
+            <div class="col-md-3">
+                <h3 class="Nor">Second Normal Form (2NF)</h3>
+                <h4 class="form">It is in First normal form, there should not be any partial dependency of any column on primary key
+                    and All Non-key attributes are fully functionally dependent on primary key.</h4>
+                    <h4 class="example"><i>This means the table has concatenated primary key and each attribute in table depends on that concatenated primary key.</i></h4>
+            </div>
+            <div class="col-md-3">
+                <h3 class="Nor">Third Normal Form (3NF)</h3>
+                <h4 class="form">It is in Second normal form and there is no transitive functional dependency</h4>
+                <h4 class="example"><i>This means that when table 1 is Functionally dependent on table 2. and table 2 is functionally dependent on table 3 then.table 3 is transitively dependent on table 1 via table 2.</i></h4>
+            </div>
+            <div class="col-md-3">
+                <h3 class="Nor">Boyce-Code Normal Form (BCNF)</h3>
+                <h4 class="form">It is a higher version of third normal form. This form is used to handle anomalies
+                    and does not allow dependencies between attributes that belong to candidate keys. It drops
+                    restriction of the non key attributes from third normal form.</h4>
+                    <h4 class="example"><i>This means that for a dependency A → B, A cannot be a non-prime attribute, if B is a prime attribute.
+
+                    </i></h4>
+            </div>
+        </div>
+
+        <!--Normalization blog ENDS here-->
+        <br>
+        <br>
         <!--SQL Commands Blog starts here-->
         <div class="row row8">
             <h2>Define SQL commands</h2>
@@ -182,7 +233,7 @@
             </div>
         </div>
         <!--Major Steps Blog ends here-->
-        
+
         <!--remember to starts new blog on row 12-->
 
         <br>

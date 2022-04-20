@@ -15,12 +15,33 @@ h1{
     font-size: 5rem;
     text-shadow: 2px 2px #dad8e1;
  }
-.row3, .row8 {
+.row3, .row8, .row12 {
     background-color: gray;
     text-align: center;
   
 }
-.row4, .row5, .row6, .row7, .row9, .row10, .row11 {
+
+.row14 {
+    text-align: center;
+    color: rgb(21, 78, 78);
+    font-size: 25px;
+    font-weight: 700;
+ 
+}
+.Nor {
+    color: teal;
+    text-decoration: underline;
+    font-size: 23px;
+}
+.form {
+    font-size: 20px;
+}
+.example {
+    font-size: 18px;
+    color: gray;
+}
+
+.row4, .row5, .row6, .row7, .row9, .row10, .row11, .row13, .row14, .row15{
     background-color: white;
     text-align: center;    
 }
